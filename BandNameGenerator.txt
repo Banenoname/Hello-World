@@ -1,0 +1,10 @@
+print("Welcome to Band Generator. Lets create a band name!")
+answer1 = input("Whats your favorite color? ")
+answer2 = input("Whats your pets name? ")
+print(f"Your bands name is the {answer1} {answer2}s!")
+
+reply1 = input("Do you like that name? ")
+if reply1 == "no":
+    print(f"How about The {answer2} {answer1}s! That should work!")
+elif reply1 == "yes":
+    print(f"Great!!! The {answer1} {answer2}s is your band name!")
